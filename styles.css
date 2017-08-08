@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Droid-Sans";
+  src: url(droid-sans-mono.ttf) format("truetype");
+}
+h1 { font-family: "Droid-Sans", sans-serif }
+
+span {
+    padding: 10px;
+    border: 10px solid black;
+    display: inline-block;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
